@@ -245,6 +245,8 @@ export default {};
   margin: 1.5em 0 0 1.5em;
 }
 .test-sonuclari {
+  display: flex;
+  flex-direction: row;
 }
 .menuItem {
   margin-bottom: 1em;
