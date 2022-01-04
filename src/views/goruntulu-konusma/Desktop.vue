@@ -3,7 +3,11 @@
     <div class="outerBox">
       <div class="header">
         <img class="logo" src="../../assets/logo.svg" alt="" />
-        <img src="../../assets/online-islemler.svg" alt="" />
+        <img
+          class="onlineIslemler"
+          src="../../assets/online-islemler.svg"
+          alt=""
+        />
         <div class="bulutlar">
           <img class="sol-bulut" src="../../assets/sol-bulut.svg" alt="" />
           <img class="sağ-bulut" src="../../assets/sağ-bulut.svg" alt="" />
@@ -54,10 +58,14 @@ export default { components: { Menu } };
   justify-content: flex-start;
   align-items: center;
 }
+.logo {
+  margin-right: 2em;
+}
 .bulutlar {
+  margin-left: 4em;
   width: 421px;
   /* original was 217 */
-  height: 117px;
+  height: 100%;
   background: linear-gradient(
       180deg,
       #33a5df 16.85%,
@@ -69,8 +77,12 @@ export default { components: { Menu } };
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  /* border: 1px solid red; */
 }
 .sol-bulut {
+  margin: 0;
+  padding: 0;
   width: 66px;
   height: 111px;
   background: linear-gradient(90deg, #32a5df 0%, rgba(50, 165, 223, 0) 100%);
@@ -82,9 +94,10 @@ export default { components: { Menu } };
   transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .greyBox {
-  /* border: 2px solid red; */
+  /* border: 1px solid red; */
   height: 80%;
   background: #f2f8fb;
+  border-radius: 2%;
 }
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
