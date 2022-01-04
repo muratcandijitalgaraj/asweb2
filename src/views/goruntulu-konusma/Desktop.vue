@@ -9,7 +9,18 @@
           <img class="sağ-bulut" src="../../assets/sağ-bulut.svg" alt="" />
         </div>
       </div>
-      <div class="greyBox"></div>
+      <div class="greyBox">
+        <!-- sideBar -->
+        <div class="greyBoxLeft">
+          <div class="user">
+            <img src="../../assets/user.svg" alt="" />
+            <div class="userTexts">
+              <p class="userName">Mehmet Yılmazer</p>
+              <p class="userProtocol">Protokol No: 292390</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -69,5 +80,57 @@ export default {};
   /* border: 2px solid red; */
   height: 80%;
   background: #f2f8fb;
+}
+.greyBoxLeft {
+  border: 2px solid black;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #dae9f1;
+  width: 90%;
+}
+.userTexts {
+  padding: 0;
+  /* border: 1px solid black; */
+}
+.userName {
+  width: 119px;
+  height: 25%;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #3c4e69;
+  padding: 0;
+  margin: 0;
+  margin-top: 2em;
+  margin-bottom: 5px;
+}
+.userProtocol {
+  /* Protokol No: 292390 */
+  width: 123px;
+  height: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+  padding: 0;
+  margin: 0;
+  color: #3c4e69;
 }
 </style>
