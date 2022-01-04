@@ -87,7 +87,7 @@ export default { components: { Menu } };
   background: #f2f8fb;
 }
 .greyBoxLeft {
-  border: 2px solid black;
+  border-right: 1px solid #dae9f1;
   width: 20%;
   height: 100%;
 }
@@ -107,12 +107,7 @@ export default { components: { Menu } };
   border-bottom: 1px solid #dae9f1;
   width: 90%;
 }
-.menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+
 .userTexts {
   padding: 0;
   /* border: 1px solid black; */
