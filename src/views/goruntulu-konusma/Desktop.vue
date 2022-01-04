@@ -28,6 +28,9 @@
           <!-- left menu -->
           <Menu />
         </div>
+        <div class="greyBoxRight">
+          <WhiteBoxes />
+        </div>
       </div>
     </div>
   </div>
@@ -35,7 +38,8 @@
 
 <script>
 import Menu from "./Menu.vue";
-export default { components: { Menu } };
+import WhiteBoxes from "./WhiteBoxes.vue";
+export default { components: { Menu, WhiteBoxes } };
 </script>
 
 <style scoped>
@@ -50,7 +54,7 @@ export default { components: { Menu } };
 .outerBox {
   /* border: 1px solid black; */
   height: 100%;
-  width: 70%;
+  width: 65%;
 }
 .header {
   display: flex;
@@ -94,14 +98,16 @@ export default { components: { Menu } };
   transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 .greyBox {
-  /* border: 1px solid red; */
+  /* border: 3px solid red; */
   height: 80%;
   background: #f2f8fb;
   border-radius: 2%;
+  display: flex;
+  flex-direction: row;
 }
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
-  width: 20%;
+  width: 25%;
   height: 100%;
 }
 .userContainer {
@@ -137,7 +143,7 @@ export default { components: { Menu } };
   color: #3c4e69;
   padding: 0;
   margin: 0;
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-bottom: 5px;
 }
 .userProtocol {
@@ -153,5 +159,10 @@ export default { components: { Menu } };
   padding: 0;
   margin: 0;
   color: #3c4e69;
+}
+.greyBoxRight {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
 }
 </style>
