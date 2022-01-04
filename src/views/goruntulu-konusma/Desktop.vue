@@ -12,13 +12,17 @@
       <div class="greyBox">
         <!-- sideBar -->
         <div class="greyBoxLeft">
-          <div class="user">
-            <img src="../../assets/user.svg" alt="" />
-            <div class="userTexts">
-              <p class="userName">Mehmet Yılmazer</p>
-              <p class="userProtocol">Protokol No: 292390</p>
+          <div class="userContainer">
+            <div class="user">
+              <img src="../../assets/user.svg" alt="" />
+              <div class="userTexts">
+                <p class="userName">Mehmet Yılmazer</p>
+                <p class="userProtocol">Protokol No: 292390</p>
+              </div>
             </div>
           </div>
+          <!-- left menu -->
+          <Menu />
         </div>
       </div>
     </div>
@@ -26,7 +30,8 @@
 </template>
 
 <script>
-export default {};
+import Menu from "./Menu.vue";
+export default { components: { Menu } };
 </script>
 
 <style scoped>
@@ -83,8 +88,10 @@ export default {};
 }
 .greyBoxLeft {
   border: 2px solid black;
-  width: 25%;
+  width: 20%;
   height: 100%;
+}
+.userContainer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -99,6 +106,12 @@ export default {};
   padding-bottom: 2em;
   border-bottom: 1px solid #dae9f1;
   width: 90%;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .userTexts {
   padding: 0;
