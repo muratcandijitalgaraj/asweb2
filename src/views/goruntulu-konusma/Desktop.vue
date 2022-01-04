@@ -1,8 +1,15 @@
 <template>
   <div class="goruntulu-konusma-desktop">
-    <div class="header">
-      <img class="logo" src="../../assets/logo.svg" alt="" />
-      <img src="../../assets/online-islemler.svg" alt="" />
+    <div class="outerBox">
+      <div class="header">
+        <img class="logo" src="../../assets/logo.svg" alt="" />
+        <img src="../../assets/online-islemler.svg" alt="" />
+        <div class="bulutlar">
+          <img class="sol-bulut" src="../../assets/sol-bulut.svg" alt="" />
+          <img class="sağ-bulut" src="../../assets/sağ-bulut.svg" alt="" />
+        </div>
+      </div>
+      <div class="greyBox"></div>
     </div>
   </div>
 </template>
@@ -16,5 +23,51 @@ export default {};
   background: #32a5df;
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerBox {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 70%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bulutlar {
+  width: 421px;
+  /* original was 217 */
+  height: 117px;
+  background: linear-gradient(
+      180deg,
+      #33a5df 16.85%,
+      rgba(51, 165, 223, 0) 58.86%
+    ),
+    url("../../assets/bulut.svg");
+  background-repeat: no-repeat;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sol-bulut {
+  width: 66px;
+  height: 111px;
+  background: linear-gradient(90deg, #32a5df 0%, rgba(50, 165, 223, 0) 100%);
+}
+.sağ-bulut {
+  /* width: 66px;
+  height: 111px;
+  background: linear-gradient(90deg, #32a5df 0%, rgba(50, 165, 223, 0) 100%);
+  transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.greyBox {
+  /* border: 2px solid red; */
+  height: 80%;
+  background: #f2f8fb;
 }
 </style>
