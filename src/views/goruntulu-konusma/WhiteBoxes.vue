@@ -281,7 +281,10 @@ export default {};
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   padding: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #dae9f1;
+  /* height: 25%; */
 }
 </style>
