@@ -101,15 +101,19 @@ export default { components: { Menu, WhiteBoxes } };
 }
 .greyBox {
   /* border: 3px solid red; */
-  height: 80%;
+  /* height: 80%;
   background: #f2f8fb;
-  border-radius: 2%;
+  border-radius: 2%; */
+  width: 1250px;
+  height: 1035px;
+  background: #f2f8fb;
+  border-radius: 22px;
   display: flex;
   flex-direction: row;
 }
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
-  width: 30%;
+  width: 25%;
   height: 100%;
 }
 .userContainer {
@@ -168,13 +172,21 @@ export default { components: { Menu, WhiteBoxes } };
   height: 100%;
   width: 100%;
   /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .greyBoxRightUp {
   /* border: 1px solid black; */
   /* padding-bottom: 2em; */
   /* border-bottom: 1px solid #dae9f1; */
-  width: 90%;
+  width: 95%;
   height: 30%;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
 }
 </style>

@@ -1,15 +1,9 @@
 <template>
-  <div class="whiteboxesContainer">
-    <div class="whiteBoxes">
-      <!-- Hastane randevusu alın -->
-      <div class="whiteBoxItem"></div>
-    </div>
-
-    <!-- görüntülü görüşme randevusu alın -->
-
-    <!-- check up başvurusu yapın -->
-
-    <!-- tıbbi ikinci görüş formu -->
+  <div class="whiteBoxesContainer">
+    <div class="whiteBoxItem"></div>
+    <div class="whiteBoxItem"></div>
+    <div class="whiteBoxItem"></div>
+    <div class="whiteBoxItem"></div>
   </div>
 </template>
 
@@ -18,34 +12,21 @@ export default {};
 </script>
 
 <style scoped>
-.whiteboxesContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* align-items: center; */
-  flex-wrap: wrap;
-  /* padding: 2em;
-   */
-  /* border-bottom: 1px solid #dae9f1; */
-  height: 100%;
-  width: 100%;
-}
-.whiteBoxes {
+.whiteBoxesContainer {
   height: 100%;
   border-bottom: 1px solid #dae9f1;
-  width: 96%;
-  /* 
-  margin-top: 1.5em;
-  padding-bottom: 2em; */
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .whiteBoxItem {
-  /* background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
-  /* border: 2px solid black; */
-  height: 100%;
-  width: 100%;
+  border: 1px solid black;
+  width: 210px;
+  height: 130px;
+  background: #ffffff;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
 }
 </style>
