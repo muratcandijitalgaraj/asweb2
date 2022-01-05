@@ -32,6 +32,7 @@
           <div class="greyBoxRightUp">
             <WhiteBoxes />
           </div>
+          <BigWhiteBox />
         </div>
       </div>
     </div>
@@ -41,7 +42,8 @@
 <script>
 import Menu from "./Menu.vue";
 import WhiteBoxes from "./WhiteBoxes.vue";
-export default { components: { Menu, WhiteBoxes } };
+import BigWhiteBox from "./BigWhiteBox.vue";
+export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 </script>
 
 <style scoped>
