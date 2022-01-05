@@ -57,6 +57,7 @@ export default { components: { Menu, WhiteBoxes } };
   /* border: 1px solid black; */
   height: 100%;
   width: 65%;
+  margin-bottom: 5%;
 }
 .header {
   display: flex;
