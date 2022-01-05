@@ -29,7 +29,9 @@
           <Menu />
         </div>
         <div class="greyBoxRight">
-          <WhiteBoxes />
+          <div class="greyBoxRightUp">
+            <WhiteBoxes />
+          </div>
         </div>
       </div>
     </div>
@@ -107,7 +109,7 @@ export default { components: { Menu, WhiteBoxes } };
 }
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
-  width: 25%;
+  width: 30%;
   height: 100%;
 }
 .userContainer {
@@ -115,6 +117,7 @@ export default { components: { Menu, WhiteBoxes } };
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 30%;
 }
 .user {
   display: flex;
@@ -125,6 +128,7 @@ export default { components: { Menu, WhiteBoxes } };
   padding-bottom: 2em;
   border-bottom: 1px solid #dae9f1;
   width: 90%;
+  height: 100%;
 }
 
 .userTexts {
@@ -163,6 +167,14 @@ export default { components: { Menu, WhiteBoxes } };
 .greyBoxRight {
   height: 100%;
   width: 100%;
-  /* border: 2px solid black; */
+  border: 1px solid black;
+}
+
+.greyBoxRightUp {
+  /* border: 1px solid black; */
+  /* padding-bottom: 2em; */
+  /* border-bottom: 1px solid #dae9f1; */
+  width: 90%;
+  height: 30%;
 }
 </style>
