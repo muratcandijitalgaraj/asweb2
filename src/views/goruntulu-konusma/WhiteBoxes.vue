@@ -83,7 +83,7 @@ export default {};
   align-items: center;
 }
 .individualBox {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 130px;
   background: #ffffff;
