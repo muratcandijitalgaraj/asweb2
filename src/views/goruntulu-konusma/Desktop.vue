@@ -105,8 +105,9 @@ export default { components: { Menu, WhiteBoxes } };
   /* height: 80%;
   background: #f2f8fb;
   border-radius: 2%; */
-  width: 1250px;
-  height: 1035px;
+  width: 100%;
+  /* original 1035px */
+  height: 935px;
   background: #f2f8fb;
   border-radius: 22px;
   display: flex;
@@ -114,7 +115,7 @@ export default { components: { Menu, WhiteBoxes } };
 }
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
-  width: 25%;
+  width: 30%;
   height: 100%;
 }
 .userContainer {
@@ -122,18 +123,19 @@ export default { components: { Menu, WhiteBoxes } };
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 30%;
+  height: 25%;
 }
 .user {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
-  padding-bottom: 2em;
+  /* margin-top: 2em;
+  padding-bottom: 2em; */
   border-bottom: 1px solid #dae9f1;
   width: 90%;
-  height: 100%;
+  height: 90%;
+  /* border: 1px solid black; */
 }
 
 .userTexts {
@@ -170,7 +172,7 @@ export default { components: { Menu, WhiteBoxes } };
   color: #3c4e69;
 }
 .greyBoxRight {
-  height: 100%;
+  height: 90%;
   width: 100%;
   /* border: 1px solid black; */
   display: flex;
@@ -184,7 +186,7 @@ export default { components: { Menu, WhiteBoxes } };
   /* padding-bottom: 2em; */
   /* border-bottom: 1px solid #dae9f1; */
   width: 95%;
-  height: 30%;
+  height: 25%;
   /* display: flex;
   flex-direction: row;
   justify-content: center;
