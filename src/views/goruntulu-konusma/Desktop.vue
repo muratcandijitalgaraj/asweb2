@@ -47,7 +47,7 @@ export default { components: { Menu, WhiteBoxes } };
 <style scoped>
 .goruntulu-konusma-desktop {
   background: #32a5df;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -167,7 +167,7 @@ export default { components: { Menu, WhiteBoxes } };
 .greyBoxRight {
   height: 100%;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .greyBoxRightUp {
