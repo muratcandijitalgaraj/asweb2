@@ -49,7 +49,44 @@
         </div>
         <button class="btn">Yol Tarifi Alın</button>
       </div>
+      <div class="greyLine"></div>
+      <div class="itemWithButton">
+        <div class="bigWhiteBoxItem">
+          <img
+            class="bigWhiteBoxIcon"
+            src="../../assets/calendar-grey.svg"
+            alt=""
+          />
+          <div class="paraContainer">
+            <div class="boxPara">Tarih</div>
+            <div class="boxTitle">20 Ocak 2021 - 15:30</div>
+          </div>
+        </div>
+        <button class="btn">Takvime Ekle</button>
+      </div>
+      <div class="greyLine"></div>
 
+      <div class="bigWhiteBoxItem">
+        <img
+          id="sikayetId"
+          class="bigWhiteBoxIcon"
+          src="../../assets/flash-circle.svg"
+          alt=""
+        />
+        <div class="paraContainer">
+          <div class="boxPara">Şikayet</div>
+          <div class="boxTitle">
+            Gögüs boşlugumda ara ara ağrılar hissediyorum. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequatLorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat
+          </div>
+        </div>
+      </div>
       <div class="bigWhiteBoxItem">
         <img class="bigWhiteBoxIcon" src="" alt="" />
         <div class="paraContainer">
@@ -169,6 +206,8 @@ export default {};
   /* border: 1px solid black; */
   padding: 0;
   color: #3c4e69;
+  justify-self: flex-start;
+  text-align: left;
 }
 .boxPara {
   font-family: Nunito Sans;
@@ -183,5 +222,9 @@ export default {};
 }
 .bigWhiteBoxIcon {
   margin-bottom: 2px;
+}
+#sikayetId {
+  align-self: flex-start;
+  padding-top: 10px;
 }
 </style>
