@@ -36,13 +36,17 @@
           <div class="boxTitle">Mehmet Balkan</div>
         </div>
       </div>
-      <div class="bigWhiteBoxItem">
-        <img class="bigWhiteBoxIcon" src="" alt="" />
-        <div class="paraContainer">
-          <div class="boxPara"></div>
-          <div class="boxTitle"></div>
+      <div class="itemWithButton">
+        <div class="bigWhiteBoxItem">
+          <img class="bigWhiteBoxIcon" src="../../assets/hospital.svg" alt="" />
+          <div class="paraContainer">
+            <div class="boxPara">Hastane</div>
+            <div class="boxTitle">Ataşehir Tıp Merkezi</div>
+          </div>
         </div>
+        <button class="btn">Yol Tarifi Alın</button>
       </div>
+
       <div class="bigWhiteBoxItem">
         <img class="bigWhiteBoxIcon" src="" alt="" />
         <div class="paraContainer">
@@ -100,6 +104,30 @@ export default {};
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+.itemWithButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.btn {
+  width: 12em;
+  height: 39px;
+  background: #32a5df;
+  color: white;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  border-radius: 6px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
 }
 .bigWhiteBoxItem {
   width: 100%;
