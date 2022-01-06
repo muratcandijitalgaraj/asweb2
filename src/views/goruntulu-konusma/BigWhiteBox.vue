@@ -26,7 +26,25 @@
         </div>
       </div>
       <div class="bigWhiteBoxItem">
-        <img class="bigWhiteBoxImg" src="" alt="" />
+        <img
+          class="bigWhiteBoxIcon"
+          src="../../assets/user-square.svg"
+          alt=""
+        />
+        <div class="paraContainer">
+          <div class="boxPara">Kim için</div>
+          <div class="boxTitle">Mehmet Balkan</div>
+        </div>
+      </div>
+      <div class="bigWhiteBoxItem">
+        <img class="bigWhiteBoxIcon" src="" alt="" />
+        <div class="paraContainer">
+          <div class="boxPara"></div>
+          <div class="boxTitle"></div>
+        </div>
+      </div>
+      <div class="bigWhiteBoxItem">
+        <img class="bigWhiteBoxIcon" src="" alt="" />
         <div class="paraContainer">
           <div class="boxPara"></div>
           <div class="boxTitle"></div>
@@ -55,7 +73,7 @@ export default {};
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid black; */
-  width: 100%;
+  width: 95%;
   padding: 2em;
 }
 .smallTitle {
@@ -77,7 +95,7 @@ export default {};
   height: 90%;
   background-color: white;
   padding: 2em;
-  border-radius: 3%;
+  border-radius: 2%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -89,7 +107,10 @@ export default {};
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  /* border: 1px solid black; */
+  border-bottom: 1px solid #e7eff3;
+  margin-bottom: 1.5em;
+
+  padding-bottom: 1.5em;
 }
 .paraContainer {
   display: flex;
@@ -99,14 +120,15 @@ export default {};
   margin-left: 1em;
 }
 .boxTitle {
-  width: 169px;
-  height: 20px;
+  /* width: 169px;
+  height: 20px; */
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
   line-height: 20px;
-
+  /* border: 1px solid black; */
+  padding: 0;
   color: #3c4e69;
 }
 .boxPara {
@@ -116,7 +138,11 @@ export default {};
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
+  /* border: 1px solid black; */
 
   color: #818b9a;
+}
+.bigWhiteBoxIcon {
+  margin-bottom: 2px;
 }
 </style>
