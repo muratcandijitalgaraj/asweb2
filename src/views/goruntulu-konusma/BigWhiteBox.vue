@@ -87,11 +87,12 @@
           </div>
         </div>
       </div>
+      <div class="greyLine"></div>
+
       <div class="bigWhiteBoxItem">
-        <img class="bigWhiteBoxIcon" src="" alt="" />
+        <img class="bigWhiteBoxIcon" src="../../assets/slash.svg" alt="" />
         <div class="paraContainer">
-          <div class="boxPara"></div>
-          <div class="boxTitle"></div>
+          <div class="sikayetPara">Randevuyu İptal Et</div>
         </div>
       </div>
     </div>
@@ -226,5 +227,18 @@ export default {};
 #sikayetId {
   align-self: flex-start;
   padding-top: 10px;
+}
+.sikayetPara {
+  width: 140px;
+  height: 26px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+
+  color: #ff5858;
 }
 </style>
