@@ -8234,6 +8234,11 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-responsive@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/vue-responsive/-/vue-responsive-1.1.0.tgz#7d5c82038feb8399076f90e9a20ac98473f7ec78"
+  integrity sha512-gZR7PihB6ExohvyrIFwJcJDG3qvbdrdMB6aZAm14jWNIUxUacN6ZQLbQbmQduW+tlR3vVHAPdvwFvU57D1my4g==
+
 vue-router@^3.2.0:
   version "3.5.3"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-3.5.3.tgz#041048053e336829d05dafacf6a8fb669a2e7999"
