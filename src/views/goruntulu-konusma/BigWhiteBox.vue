@@ -25,6 +25,8 @@
           <div class="boxPara">Anesteziyoloji ve Reanimasyon Birimi</div>
         </div>
       </div>
+      <div class="greyLine"></div>
+
       <div class="bigWhiteBoxItem">
         <img
           class="bigWhiteBoxIcon"
@@ -36,6 +38,7 @@
           <div class="boxTitle">Mehmet Balkan</div>
         </div>
       </div>
+      <div class="greyLine"></div>
       <div class="itemWithButton">
         <div class="bigWhiteBoxItem">
           <img class="bigWhiteBoxIcon" src="../../assets/hospital.svg" alt="" />
@@ -70,6 +73,11 @@ export default {};
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.greyLine {
+  height: 1px;
+  width: 100%;
+  background-color: #e7eff3;
 }
 .titlePart {
   display: flex;
@@ -109,9 +117,9 @@ export default {};
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .btn {
   width: 12em;
@@ -128,6 +136,7 @@ export default {};
   text-align: center;
   border-radius: 6px;
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  margin-top: 10px;
 }
 .bigWhiteBoxItem {
   width: 100%;
@@ -135,10 +144,12 @@ export default {};
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid #e7eff3;
-  margin-bottom: 1.5em;
+  /* border-bottom: 1px solid #e7eff3; */
+  /*
 
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5em; */
+  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 .paraContainer {
   display: flex;
