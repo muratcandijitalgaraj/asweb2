@@ -32,7 +32,9 @@
           <div class="greyBoxRightUp">
             <WhiteBoxes />
           </div>
-          <BigWhiteBox />
+          <div class="bigWhiteBoxContainer">
+            <BigWhiteBox />
+          </div>
         </div>
       </div>
     </div>
@@ -193,5 +195,9 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   flex-direction: row;
   justify-content: center;
   align-items: center; */
+}
+.bigWhiteBoxContainer {
+  height: 100%;
+  width: 100%;
 }
 </style>
