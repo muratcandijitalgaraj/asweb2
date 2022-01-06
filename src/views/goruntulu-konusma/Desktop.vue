@@ -126,7 +126,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   border-radius: 2%; */
   width: 100%;
   /* original 1035px */
-  height: 1035px;
+  height: 100%;
   background: #f2f8fb;
   border-radius: 22px;
   display: flex;
