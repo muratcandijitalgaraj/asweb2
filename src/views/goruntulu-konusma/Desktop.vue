@@ -25,6 +25,10 @@
               </div>
             </div>
           </div>
+          <div class="greyLineContainer">
+            <div class="greyLine"></div>
+          </div>
+
           <!-- left menu -->
           <Menu />
         </div>
@@ -56,6 +60,17 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.greyLineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.greyLine {
+  height: 1px;
+  width: 90%;
+  background-color: #e7eff3;
 }
 .outerBox {
   /* border: 1px solid black; */
@@ -111,24 +126,14 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   border-radius: 2%; */
   width: 100%;
   /* original 1035px */
-  height: 935px;
+  height: 1035px;
   background: #f2f8fb;
   border-radius: 22px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
-.greyBoxLeft {
-  border-right: 1px solid #dae9f1;
-  width: 30%;
-  height: 100%;
-}
-.userContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 25%;
-}
+
 .user {
   display: flex;
   flex-direction: column;
@@ -136,10 +141,10 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   align-items: center;
   /* margin-top: 2em;
   padding-bottom: 2em; */
-  border-bottom: 1px solid #dae9f1;
+  /* border-bottom: 1px solid #dae9f1; */
   width: 90%;
   height: 90%;
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
 }
 
 .userTexts {
@@ -175,9 +180,23 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   margin: 0;
   color: #3c4e69;
 }
+.greyBoxLeft {
+  border-right: 1px solid #dae9f1;
+  width: 20%;
+  height: 100%;
+}
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 12.5rem;
+  /* border: 1px solid black; */
+  /* border-bottom: 1px solid #dae9f1; */
+}
 .greyBoxRight {
-  height: 90%;
-  width: 100%;
+  height: 100%;
+  width: 80%;
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
@@ -186,15 +205,13 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 }
 
 .greyBoxRightUp {
-  /* border: 1px solid black; */
-  /* padding-bottom: 2em; */
-  /* border-bottom: 1px solid #dae9f1; */
-  width: 95%;
-  height: 25%;
-  /* display: flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
+  width: 95%;
+  height: 12.5rem;
+  /* border: 1px solid black; */
 }
 .bigWhiteBoxContainer {
   height: 100%;
