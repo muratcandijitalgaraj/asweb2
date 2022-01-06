@@ -249,7 +249,7 @@ export default {};
   flex-direction: row;
 }
 .menuItem {
-  margin-bottom: 1em;
+  margin-bottom: 1.3em;
 }
 .notification {
   margin-left: 10px;
