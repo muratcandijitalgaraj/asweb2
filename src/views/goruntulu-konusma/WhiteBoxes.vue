@@ -41,7 +41,7 @@ export default {};
 .individualBox {
   /* border: 1px solid black; */
   width: 100%;
-  height: auto;
+  height: 65%;
   background: #ffffff;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -61,7 +61,7 @@ export default {};
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
   /* or 125% */
   font-weight: 900;

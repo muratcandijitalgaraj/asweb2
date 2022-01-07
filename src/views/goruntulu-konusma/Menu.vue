@@ -174,6 +174,7 @@ export default {};
 
 <style scoped>
 .menu {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -191,9 +192,10 @@ export default {};
   justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
-  width: 100%;
+  width: auto;
   /* border: 1px solid black; */
   padding: 0;
+  padding-right: 1em;
 }
 .notification {
   margin-left: 10px;
@@ -203,7 +205,7 @@ export default {};
 }
 .menuPara {
   /* border: 1px solid black; */
-  width: 32px;
+  width: auto;
   height: 20px;
   font-family: Nunito Sans;
   font-style: normal;
