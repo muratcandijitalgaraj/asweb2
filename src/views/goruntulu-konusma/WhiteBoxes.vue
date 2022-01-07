@@ -7,15 +7,15 @@
     </div>
     <div class="individualBox">
       <img class="boxItem" src="../../assets/camera.svg" alt="" />
-      <p class="boxPara">Hastane Randevusu Alın</p>
+      <p class="boxPara">Görüntülü Görüşme Randevusu Alın</p>
     </div>
     <div class="individualBox">
       <img class="boxItem" src="../../assets/heart-circle.svg" alt="" />
-      <p class="boxPara">Hastane Randevusu Alın</p>
+      <p class="boxPara">Check-Up Başvurusu Yapın</p>
     </div>
     <div class="individualBox">
       <img class="boxItem" src="../../assets/bitcoin-convert.svg" alt="" />
-      <p class="boxPara">Hastane Randevusu Alın</p>
+      <p class="boxPara">Tıbbi İkinci Görüş Formu</p>
     </div>
   </div>
 </template>
@@ -56,8 +56,8 @@ export default {};
   margin-bottom: 0.8em;
 }
 .boxPara {
-  width: 148px;
-  height: 40px;
+  width: auto;
+  height: auto;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
