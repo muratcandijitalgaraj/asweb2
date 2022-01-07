@@ -184,6 +184,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   border-right: 1px solid #dae9f1;
   width: 20%;
   height: 100%;
+  padding-right: 1em;
 }
 .userContainer {
   display: flex;
