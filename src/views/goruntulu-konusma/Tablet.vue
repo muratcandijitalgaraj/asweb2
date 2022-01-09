@@ -25,11 +25,11 @@
             >
               <b-navbar-brand href="#">
                 <div id="responsive-navBarBrand">
-                  <!-- <img
+                  <img
                     id="responsive-userImage"
-                    src="../assets/goruntulu-konusma/user-img.png"
+                    src="../../assets/userGroup.svg"
                     alt="user picture"
-                  /> -->
+                  />
                   <div id="responsive-textContainer">
                     <h3 id="responsive-userName">Mehmet Yılmazer</h3>
                     <h4 id="responsive-protokolNo">Protokol No: 292390</h4>
@@ -323,6 +323,11 @@ export default {};
   height: 80%;
   background: #f2f8fb;
 }
+.navBar{
+  background: #f2f8fb !important;
+  text-align: left;
+  padding:2em;
+}
 .bulutlar {
   margin-left: 4em;
   width: 421px;
@@ -355,4 +360,38 @@ export default {};
   background: linear-gradient(90deg, #32a5df 0%, rgba(50, 165, 223, 0) 100%);
   transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
+#responsive-navBarBrand{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#responsive-userImage{
+  margin-right: 1em;
+}
+#responsive-userName{
+  width: 119px;
+height: 20px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+color: #3C4E69;
+
+}
+#responsive-protokolNo{
+  width: 123px;
+height: 18px;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+color: #3C4E69;
+
+}
+
 </style>
