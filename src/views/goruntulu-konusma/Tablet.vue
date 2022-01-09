@@ -282,6 +282,9 @@
             </b-navbar>
           </div>
         </div>
+        <div class="blueLineContainer">
+        <div class="blueLine"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -303,7 +306,7 @@ export default {};
 .outerBox {
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -316,13 +319,16 @@ export default {};
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .greyBox {
   width: 80%;
   height: 80%;
   background: #f2f8fb;
 }
+/* .responsiveNavbarDiv{
+  border-bottom: 2px solid black;
+} */
 .navBar{
   background: #f2f8fb !important;
   text-align: left;
@@ -340,7 +346,7 @@ export default {};
     ),
     url("../../assets/bulut.svg");
   background-repeat: no-repeat;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -391,6 +397,21 @@ line-height: 18px;
 /* identical to box height */
 
 color: #3C4E69;
+
+}
+.sideBarItem{
+  margin-bottom: .5em;
+}
+.blueLineContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+.blueLine{
+  width: 90%;
+  background: #32A5DF;
+  height:2px;
 
 }
 
