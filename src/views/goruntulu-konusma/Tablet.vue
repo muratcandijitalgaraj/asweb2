@@ -285,13 +285,17 @@
         <div class="blueLineContainer">
         <div class="blueLine"></div>
         </div>
+        <whiteBoxes/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import whiteBoxes from "./tablet-whiteBoxes.vue"
+export default {
+  components:{whiteBoxes}
+};
 </script>
 
 <style scoped>
@@ -325,14 +329,23 @@ export default {};
   width: 80%;
   height: 80%;
   background: #f2f8fb;
+  border-radius: 5%;
+   /* border:1px solid black; */
 }
-/* .responsiveNavbarDiv{
-  border-bottom: 2px solid black;
-} */
+.responsiveNavbarDiv{
+    /* border-radius: 5%; */
+    /* border:1px solid red; */
+      border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
 .navBar{
   background: #f2f8fb !important;
   text-align: left;
   padding:2em;
+     border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+   /* border:1px solid red; */
+
 }
 .bulutlar {
   margin-left: 4em;
@@ -371,6 +384,7 @@ export default {};
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 #responsive-userImage{
   margin-right: 1em;
