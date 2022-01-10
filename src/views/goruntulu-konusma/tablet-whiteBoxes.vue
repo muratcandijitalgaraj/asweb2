@@ -1,38 +1,28 @@
 <template>
-  <div class="">
-    <b-container class="bv-example-row">
-      <b-row class="whiteBoxesContainer">
-        <b-col cols="6">
-          <div class="individualBox">
-            <img class="boxItem" src="../../assets/calendar-1.svg" alt="" />
+  <div class="whiteBoxesContainer">
+    <div class="whiteBoxGroup">
+      <div class="individualBox">
+        <img class="boxItem" src="../../assets/calendar-1.svg" alt="" />
+        <p class="boxPara">Hastane Randevusu Alın</p>
+      </div>
 
-            <p class="boxPara">Hastane Randevusu Alın</p>
-          </div></b-col
-        >
-        <b-col cols="6">
-          <div class="individualBox">
-            <img class="boxItem" src="../../assets/camera.svg" alt="" />
-            <p class="boxPara">Görüntülü Görüşme Randevusu Alın</p>
-          </div></b-col
-        >
-        <b-col cols="6">
-          <div class="individualBox">
-            <img class="boxItem" src="../../assets/heart-circle.svg" alt="" />
-            <p class="boxPara">Check-Up Başvurusu Yapın</p>
-          </div></b-col
-        >
-        <b-col cols="6">
-          <div class="individualBox">
-            <img
-              class="boxItem"
-              src="../../assets/bitcoin-convert.svg"
-              alt=""
-            />
-            <p class="boxPara">Tıbbi İkinci Görüş Formu</p>
-          </div></b-col
-        >
-      </b-row>
-    </b-container>
+      <div class="individualBox">
+        <img class="boxItem" src="../../assets/camera.svg" alt="" />
+        <p class="boxPara">Görüntülü Görüşme Randevusu Alın</p>
+      </div>
+    </div>
+
+    <div class="whiteBoxGroup">
+      <div class="individualBox">
+        <img class="boxItem" src="../../assets/heart-circle.svg" alt="" />
+        <p class="boxPara">Check-Up Başvurusu Yapın</p>
+      </div>
+
+      <div class="individualBox">
+        <img class="boxItem" src="../../assets/bitcoin-convert.svg" alt="" />
+        <p class="boxPara">Tıbbi İkinci Görüş Formu</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -46,11 +36,19 @@ export default {};
   border-bottom: 1px solid #dae9f1;
   width: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 1em;
+}
+.whiteBoxGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* border: 1px solid black; */
+  width: 100%;
 }
 .individualBox {
   /* border: 1px solid black; */
