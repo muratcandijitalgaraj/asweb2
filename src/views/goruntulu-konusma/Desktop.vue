@@ -200,8 +200,9 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 .greyBoxLeft {
   border-right: 1px solid #dae9f1;
   width: 20%;
-  height: 100%;
+  height: auto;
   padding-right: 1em;
+  /* border:1px solid red; */
 }
 @media only screen and (max-width: 1160px) {
   .greyBoxLeft {
