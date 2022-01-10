@@ -67,6 +67,31 @@ export default {};
   padding-right: 2em;
   margin-bottom: 1.5em;
 }
+@media only screen and (max-width: 770px) {
+  .whiteBoxGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .individualBox {
+    width: 70%;
+    height: 130px;
+    background: #ffffff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    padding-right: 0;
+    padding-right: 2em;
+    margin-bottom: 1.5em;
+  }
+}
+
 .boxItem {
   margin-bottom: 0.8em;
 }

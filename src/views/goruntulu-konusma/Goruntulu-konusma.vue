@@ -6,15 +6,16 @@
 
     <div v-responsive.md><Tablet /></div>
 
-    <div v-responsive.sm.xs>Only visible on smartphone!</div>
+    <div v-responsive.sm.xs><Mobile /></div>
   </div>
 </template>
 
 <script>
 import Desktop from "./Desktop.vue";
 import Tablet from "./Tablet.vue";
+import Mobile from "./Mobile.vue";
 export default {
-  components: { Desktop, Tablet },
+  components: { Desktop, Tablet, Mobile },
 };
 </script>
 
