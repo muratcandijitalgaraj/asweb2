@@ -16,7 +16,7 @@
       <div class="greyBox">
         <!-- navbar starts -->
         <div class="responsiveNavbarDiv">
-          <div>
+          <div class="responsiveNavbarDiv">
             <b-navbar
               class="navBar"
               toggleable="lg"
@@ -318,6 +318,9 @@ export default {
   justify-content: flex-start;
   align-items: center;
 }
+.logo {
+  margin-right: 1em;
+}
 .header {
   width: 80%;
   /* height: 25%; */
@@ -329,24 +332,24 @@ export default {
 }
 .greyBox {
   width: 80%;
-  height: auto;
+  height: 80%;
   background: #f2f8fb;
-  border-radius: 5%;
-  /* border:1px solid black; */
+  border-radius: 2em;
+  /* border: 1px solid black; */
+  margin-bottom: 5em;
 }
-.responsiveNavbarDiv {
-  /* border-radius: 5%; */
-  /* border:1px solid red; */
+
+.navBar {
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
-}
-.navBar {
+  /* border: 1px solid red; */
   background: #f2f8fb !important;
   text-align: left;
   padding: 2em;
-  border-top-right-radius: 5%;
-  border-top-left-radius: 5%;
-  /* border:1px solid red; */
+  border-radius: 2em;
+}
+.notification {
+  margin-left: 0.5em;
 }
 .bulutlar {
   margin-left: 4em;
@@ -385,6 +388,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-radius: 5%;
 }
 #responsive-userImage {
   margin-right: 1em;
