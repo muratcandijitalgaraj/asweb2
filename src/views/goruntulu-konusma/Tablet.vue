@@ -283,25 +283,27 @@
           </div>
         </div>
         <div class="blueLineContainer">
-        <div class="blueLine"></div>
+          <div class="blueLine"></div>
         </div>
-        <whiteBoxes/>
+        <whiteBoxes />
+        <bigWhiteBox />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import whiteBoxes from "./tablet-whiteBoxes.vue"
+import whiteBoxes from "./tablet-whiteBoxes.vue";
+import bigWhiteBox from "./BigWhiteBox.vue";
 export default {
-  components:{whiteBoxes}
+  components: { whiteBoxes, bigWhiteBox },
 };
 </script>
 
 <style scoped>
 .tablet {
   background: #32a5df;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -327,25 +329,24 @@ export default {
 }
 .greyBox {
   width: 80%;
-  height: 80%;
+  height: auto;
   background: #f2f8fb;
   border-radius: 5%;
-   /* border:1px solid black; */
+  /* border:1px solid black; */
 }
-.responsiveNavbarDiv{
-    /* border-radius: 5%; */
-    /* border:1px solid red; */
-      border-top-right-radius: 5%;
+.responsiveNavbarDiv {
+  /* border-radius: 5%; */
+  /* border:1px solid red; */
+  border-top-right-radius: 5%;
   border-top-left-radius: 5%;
 }
-.navBar{
+.navBar {
   background: #f2f8fb !important;
   text-align: left;
-  padding:2em;
-     border-top-right-radius: 5%;
+  padding: 2em;
+  border-top-right-radius: 5%;
   border-top-left-radius: 5%;
-   /* border:1px solid red; */
-
+  /* border:1px solid red; */
 }
 .bulutlar {
   margin-left: 4em;
@@ -379,54 +380,49 @@ export default {
   background: linear-gradient(90deg, #32a5df 0%, rgba(50, 165, 223, 0) 100%);
   transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
-#responsive-navBarBrand{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
-}
-#responsive-userImage{
-  margin-right: 1em;
-}
-#responsive-userName{
-  width: 119px;
-height: 20px;
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 20px;
-color: #3C4E69;
-
-}
-#responsive-protokolNo{
-  width: 123px;
-height: 18px;
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 18px;
-/* identical to box height */
-
-color: #3C4E69;
-
-}
-.sideBarItem{
-  margin-bottom: .5em;
-}
-.blueLineContainer{
+#responsive-navBarBrand {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
-.blueLine{
+#responsive-userImage {
+  margin-right: 1em;
+}
+#responsive-userName {
+  width: 119px;
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c4e69;
+}
+#responsive-protokolNo {
+  width: 123px;
+  height: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #3c4e69;
+}
+.sideBarItem {
+  margin-bottom: 0.5em;
+}
+.blueLineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blueLine {
   width: 90%;
-  background: #32A5DF;
-  height:2px;
-
+  background: #32a5df;
+  height: 2px;
 }
-
 </style>
