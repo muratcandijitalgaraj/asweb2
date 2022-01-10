@@ -184,6 +184,7 @@ export default {};
 .test-sonuclari {
   display: flex;
   flex-direction: row;
+/* border: 1px solid black; */
 }
 .menuItem {
   /* margin-bottom: 1.3em; */
@@ -195,10 +196,10 @@ export default {};
   width: auto;
   /* border: 1px solid black; */
   padding: 0;
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 .notification {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .menuIcon {
   margin-right: 0.6em;
@@ -216,4 +217,6 @@ export default {};
 
   color: #495c79;
 }
+
+
 </style>

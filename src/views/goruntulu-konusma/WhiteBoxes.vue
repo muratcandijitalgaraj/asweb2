@@ -52,6 +52,11 @@ export default {};
   align-items: flex-start;
   padding: 1em;
 }
+@media only screen and (max-width: 1160px) {
+  .individualBox {
+  height: 80%;
+  }
+}
 .boxItem {
   margin-bottom: 0.8em;
 }

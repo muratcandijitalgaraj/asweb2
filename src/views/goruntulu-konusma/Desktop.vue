@@ -30,7 +30,10 @@
           </div>
 
           <!-- left menu -->
+          <div class="menuContainer">
+
           <Menu />
+          </div>
         </div>
         <div class="greyBoxRight">
           <div class="greyBoxRightUp">
@@ -77,6 +80,20 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   height: 100%;
   width: 65%;
   margin-bottom: 5%;
+}
+@media screen and (max-width: 1550px) {
+  .outerBox {
+    /* Apply some styles */
+  width: 85%;
+
+  }
+  /* .menuContainer{
+    border:5px solid red;
+      width: 100%;
+        height: 100%;
+
+
+  } */
 }
 .header {
   display: flex;
@@ -132,7 +149,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
+}z
 
 .user {
   display: flex;
@@ -186,10 +203,15 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   height: 100%;
   padding-right: 1em;
 }
+@media only screen and (max-width: 1160px) {
+  .greyBoxLeft {
+  width:25%;
+  }
+}
 .userContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 12.5rem;
   /* border: 1px solid black; */
