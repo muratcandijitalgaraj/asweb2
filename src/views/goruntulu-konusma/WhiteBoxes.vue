@@ -54,15 +54,15 @@ export default {};
 }
 @media only screen and (max-width: 1160px) {
   .individualBox {
-  height: 80%;
+    height: 80%;
   }
 }
 .boxItem {
   margin-bottom: 0.8em;
 }
 .boxPara {
-  width: auto;
-  height: auto;
+  width: 118px;
+  height: 40px;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
