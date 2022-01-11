@@ -8,7 +8,7 @@
           <b-col cols="12" md="12" lg="7" class="banner">
             <div class="bannerTitleGeneral">
               <div class="bannerTitleDiv">
-                <!-- <img src="../assets/logo.png" alt="" /> -->
+                <img src="../assets/logo.svg" alt="" />
               </div>
 
               <h3 class="onlineİslemler">ONLINE İŞLEMLER</h3>
@@ -19,29 +19,29 @@
                 Sevdiklerinizle sağlıklı ve uzun bir hayat
               </h2>
               <div class="bannerItemContainer">
-                <!-- <img
+                <img
                   class="bannerItemImage"
-                  src="../assets/calendar-1.png"
+                  src="../assets/giris/calendar-1.svg"
                   alt=""
-                /> -->
+                />
                 <h4 class="bannerItem">Randevu alın ve düzenleyin</h4>
               </div>
 
               <div class="bannerItemContainer">
-                <!-- <img
+                <img
                   class="bannerItemImage"
-                  src="../assets/health.png"
+                  src="../assets/giris/health.svg"
                   alt=""
-                /> -->
+                />
                 <h4 class="bannerItem">Test sonuçlarınızı görüntüleyin</h4>
               </div>
 
               <div class="bannerItemContainer">
-                <!-- <img
+                <img
                   class="bannerItemImage"
-                  src="../assets/calendar-1.png"
+                  src="../assets/giris/calendar-1.svg"
                   alt=""
-                /> -->
+                />
                 <h4 class="bannerItem">Geçmiş muayenelerinizi görün</h4>
               </div>
             </div>
@@ -102,6 +102,8 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .welcomeBox {
   border-radius: 20%;
@@ -168,6 +170,8 @@ export default {};
   font-weight: 800;
   font-size: 20px;
   line-height: 18px;
+  width: 100%;
+  /* border: 1px solid black; */
 }
 /* form part */
 #girisTitle {
