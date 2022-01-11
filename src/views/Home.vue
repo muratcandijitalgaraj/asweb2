@@ -51,7 +51,7 @@
             <div id="formPart">
               <h3 id="girisTitle">Giriş yapın</h3>
               <div class="inputGroup">
-                <label id="inputField1Label" for="inputField1"
+                <label class="inputField1Label" for="inputField1"
                   >Protokol No / TCKN</label
                 ><br />
                 <b-form-input
@@ -61,7 +61,8 @@
                 ></b-form-input>
               </div>
               <div class="inputGroup">
-                <label id="inputField1Label" for="inputField2">Parolanız</label
+                <label class="inputField1Label" for="inputField2"
+                  >Parolanız</label
                 ><br />
                 <b-form-input
                   id="inputField2"
@@ -217,9 +218,9 @@ export default {};
   align-items: flex-start; */
   padding: 5em 6em 0 6em;
 }
-#inputField1Label {
+.inputField1Label {
   margin: 0;
-  width: 122px;
+  width: 100%;
   height: 20px;
   font-family: Nunito Sans;
   font-style: normal;
@@ -228,6 +229,8 @@ export default {};
   line-height: 20px;
   /* identical to box height, or 143% */
   color: #818b9a;
+  text-align: left;
+  /* border: 1px solid black; */
 }
 .inputTitle {
   font-family: Nunito Sans;
