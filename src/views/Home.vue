@@ -70,7 +70,7 @@
                   type="password"
                 ></b-form-input>
               </div>
-              <button id="girisBtn">Tamam</button>
+              <button id="girisBtn"><p class="girisBtnText">Tamam</p></button>
               <div id="paraDiv">
                 <p id="girisPara">
                   <img src="../assets/giris/flash-circle-1.svg" alt="" />
@@ -268,6 +268,17 @@ export default {};
   border-radius: 6px;
   margin-top: 1em;
   margin-bottom: 7rem;
+}
+.girisBtnText {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  text-align: center;
+  padding-top: 3%;
+  color: #ffffff;
 }
 #paraDiv {
   display: flex;
