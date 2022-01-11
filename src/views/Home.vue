@@ -8,7 +8,7 @@
           <b-col cols="12" md="12" lg="7" class="banner">
             <div class="bannerTitleGeneral">
               <div class="bannerTitleDiv">
-                <img src="../assets/giris/logo.svg" alt="" />
+                <!-- <img src="../assets/logo.png" alt="" /> -->
               </div>
 
               <h3 class="onlineİslemler">ONLINE İŞLEMLER</h3>
@@ -111,7 +111,7 @@ export default {};
 .banner {
   height: auto;
   /* background-color: black; */
-  /* background: url("../assets/father-son-wheat-field-child-sitting-his-fathers-shoulders 2.png"); */
+  background: url("../assets/giris/backgroundImg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-top-left-radius: 5%;
