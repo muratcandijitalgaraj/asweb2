@@ -73,7 +73,7 @@
               <button id="girisBtn">Tamam</button>
               <div id="paraDiv">
                 <p id="girisPara">
-                  <!-- <img src="../assets/flash-circle-1.png" alt="" /> -->
+                  <img src="../assets/giris/flash-circle-1.svg" alt="" />
 
                   Şifremi unuttum
                 </p>
@@ -216,7 +216,8 @@ export default {};
   flex-direction: column;
   /* justify-content: flex-start;
   align-items: flex-start; */
-  padding: 5em 6em 0 6em;
+  /* padding: 4em 6em 0 6em; */
+  padding: 10% 15% 0 15%;
 }
 .inputField1Label {
   margin: 0;
@@ -244,6 +245,9 @@ export default {};
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
 }
+.inputGroup {
+  /* border: 1px solid black; */
+}
 .formInput {
   /* margin: 1em 0 1em 0;
   height: 5em !important; */
@@ -253,6 +257,7 @@ export default {};
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   margin: 0 0 1em 0;
+  /* border: 1px solid black; */
 }
 #girisBtn {
   color: #ffffff;
