@@ -189,7 +189,7 @@ export default {};
   color: #3c4e69;
 }
 .bannerBodyTitle {
-  margin-bottom: 1.6em;
+  /* margin-bottom: 1.6em; */
   margin-top: 3.5em;
   font-weight: 900;
   font-family: Nunito Sans;
