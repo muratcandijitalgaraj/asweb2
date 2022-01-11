@@ -199,6 +199,7 @@ export default {};
   /* or 122% */
   width: 80%;
   color: #ffffff;
+  text-align: left;
 }
 .signup {
   height: auto;
