@@ -111,15 +111,20 @@ export default {};
   height: 100%;
   width: 100%;
 }
-.banner {
-  height: auto;
-  /* background-color: black; */
-  background: url("../assets/giris/backgroundImg.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-top-left-radius: 5%;
-  border-bottom-left-radius: 5%;
+
+@media only screen and (min-width: 992px) {
+  .banner {
+    height: auto;
+    /* background-color: black; */
+    background: url("../assets/giris/backgroundImg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 5%;
+
+    border-bottom-left-radius: 5%;
+  }
 }
+
 .bannerTitleGeneral {
   display: flex;
   justify-content: flex-start;
@@ -134,7 +139,7 @@ export default {};
   width: auto;
 }
 .onlineİslemler {
-  margin: 4em 0 0 3em;
+  margin: 4em 0 0 2.5em;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
@@ -146,7 +151,7 @@ export default {};
 }
 .bannerBody {
   margin: 5em 0 0 3em;
-  width: 60%;
+  width: auto;
   color: white;
 }
 .bannerItemContainer {
@@ -155,6 +160,7 @@ export default {};
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: 0.6em;
+  width: 100%;
 }
 .bannerItemImage {
   margin-right: 0.5em;
@@ -191,24 +197,27 @@ export default {};
 .bannerBodyTitle {
   /* margin-bottom: 1.6em; */
   margin-top: 3.5em;
-  font-weight: 900;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
   /* or 122% */
-  width: 80%;
+  width: 70%;
   color: #ffffff;
   text-align: left;
+  /* border: 1px solid red; */
 }
-.signup {
-  height: auto;
-  background-color: #b9e1f5;
-  background-color: #f2f8fb;
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
+@media only screen and (min-width: 992px) {
+  .signup {
+    height: auto;
+    background-color: #b9e1f5;
+    background-color: #f2f8fb;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
 }
+
 #formPart {
   height: auto;
   width: 100%;
@@ -295,5 +304,27 @@ export default {};
 }
 #girisPara {
   margin: 2em 0 2em 0;
+}
+/* responsive rounded corners */
+@media only screen and (max-width: 991px) {
+  .banner {
+    height: auto;
+    /* background-color: black; */
+    background: url("../assets/giris/backgroundImg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+    /* border-bottom-left-radius: 5%; */
+  }
+  .signup {
+    height: auto;
+    background-color: #b9e1f5;
+    background-color: #f2f8fb;
+    /* border-top-right-radius: 5%; */
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+  }
 }
 </style>
