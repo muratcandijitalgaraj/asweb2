@@ -124,91 +124,93 @@ export default {};
     border-bottom-left-radius: 5%;
   }
 }
+@media only screen and (min-width: 668px) {
+  .bannerTitleGeneral {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
 
-.bannerTitleGeneral {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
+  .bannerTitleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 4em 0 0 3em;
+    width: auto;
+  }
+  .onlineİslemler {
+    margin: 4em 0 0 2.5em;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #76d1ff;
+  }
 
-.bannerTitleDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 4em 0 0 3em;
-  width: auto;
-}
-.onlineİslemler {
-  margin: 4em 0 0 2.5em;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 18px;
-  /* identical to box height, or 90% */
-  text-align: center;
-  color: #76d1ff;
-}
-.bannerBody {
-  margin: 5em 0 0 3em;
-  width: auto;
-  color: white;
-}
-.bannerItemContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 0.6em;
-  width: 100%;
-}
-.bannerItemImage {
-  margin-right: 0.5em;
-}
-.bannerItem {
-  margin-bottom: 1em;
-  padding-top: 0.4em;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 18px;
-  width: 100%;
-  /* border: 1px solid black; */
-}
-/* form part */
-#girisTitle {
-  /* Giriş Yapın */
-  width: 141px;
-  height: 30px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 28px;
-  line-height: 30px;
-  /* identical to box height, or 107% */
-  margin-bottom: 1.5em;
-  color: #3c4e69;
-}
-.bannerBodyTitle {
-  /* margin-bottom: 1.6em; */
-  margin-top: 3.5em;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 44px;
-  /* or 122% */
-  width: 70%;
-  color: #ffffff;
-  text-align: left;
-  /* border: 1px solid red; */
+  .bannerBody {
+    margin: 5em 0 0 3em;
+    width: auto;
+    color: white;
+  }
+  .bannerItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0.6em;
+    width: 100%;
+  }
+  .bannerItemImage {
+    margin-right: 0.5em;
+  }
+  .bannerItem {
+    margin-bottom: 1em;
+    padding-top: 0.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+  /* form part */
+  #girisTitle {
+    /* Giriş Yapın */
+    width: 141px;
+    height: 30px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    /* identical to box height, or 107% */
+    margin-bottom: 1.5em;
+    color: #3c4e69;
+  }
+  .bannerBodyTitle {
+    /* margin-bottom: 1.6em; */
+    margin-top: 3.5em;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* or 122% */
+    width: 70%;
+    color: #ffffff;
+    text-align: left;
+    /* border: 1px solid red; */
+  }
 }
 @media only screen and (min-width: 992px) {
   .signup {
@@ -331,11 +333,95 @@ export default {};
 }
 /* for mobile */
 @media only screen and (max-width: 667px) {
+  .home {
+    min-height: 60rem;
+    max-height: 100%;
+    width: 100%;
+    background-color: #b9e1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .bannerTitleGeneral {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 1em;
+  }
+  .bannerTitleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2em 0 0 0;
+    width: auto;
+  }
+  .onlineİslemler {
+    margin-top: 1.5em;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #76d1ff;
+  }
+  .bannerBody {
+    /* margin: 5em 0 0 3em; */
+    width: auto;
+    color: white;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid black; */
+    margin-bottom: 1em;
+  }
+  .bannerBodyTitle {
+    /* margin-bottom: 1.6em; */
+    margin-top: 3.5em;
+    margin-bottom: 1em;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: auto;
+    line-height: 44px;
+    /* or 122% */
+    width: auto;
+    color: #ffffff;
+    text-align: left;
+    /* border: 1px solid red; */
+  }
+  .bannerItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0.6em;
+    width: auto;
+    /* border: 1px solid black; */
+  }
+  .bannerItemImage {
+    margin-right: 0.5em;
+  }
+  .bannerItem {
+    margin-bottom: 1em;
+    padding-top: 0.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    width: 100%;
   }
 }
 </style>
