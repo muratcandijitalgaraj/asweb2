@@ -127,9 +127,11 @@ export default {};
 
 .bannerTitleGeneral {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
+
 .bannerTitleDiv {
   display: flex;
   flex-direction: column;
@@ -325,6 +327,15 @@ export default {};
     /* border-top-right-radius: 5%; */
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
+  }
+}
+/* for mobile */
+@media only screen and (max-width: 667px) {
+  .bannerTitleGeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 </style>
