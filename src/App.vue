@@ -9,9 +9,14 @@
 </template>
 
 <style>
+@font-face {
+  font-family: Nunito Sans;
+  src: url("./assets/fonts/NunitoSans-Regular.ttf");
+}
 html,
 body {
   height: 100%;
+  font-family: Nunito Sans;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
