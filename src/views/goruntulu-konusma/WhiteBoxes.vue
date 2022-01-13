@@ -27,7 +27,7 @@ export default {};
 <style scoped>
 .whiteBoxesContainer {
   height: 12.5rem;
-  border-bottom: 1px solid #dae9f1;
+  /* border-bottom: 1px solid #dae9f1; */
   width: 100%;
   /* border: 1px solid black; */
   display: flex;
@@ -56,7 +56,7 @@ export default {};
 }
 @media only screen and (max-width: 1160px) {
   .individualBox {
-    height: 8.125rem;
+    height: 80%;
   }
 }
 .boxItem {

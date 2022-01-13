@@ -37,6 +37,9 @@
         <div class="greyBoxRight">
           <div class="greyBoxRightUp">
             <WhiteBoxes />
+            <div class="bigGreyLineContainer">
+              <div class="bigGreyLine"></div>
+            </div>
           </div>
           <div class="bigWhiteBoxContainer">
             <BigWhiteBox />
@@ -64,15 +67,32 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   align-items: center;
 }
 .greyLineContainer {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.bigGreyLineContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 .greyLine {
   height: 1px;
-  width: 90%;
-  background-color: #e7eff3;
+  width: 80%;
+  background-color: #dae9f1;
+}
+.bigGreyLine {
+  height: 1px;
+  width: 100%;
+  background-color: #dae9f1;
 }
 .outerBox {
   /* border: 1px solid black; */
@@ -221,7 +241,7 @@ z .user {
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -232,7 +252,7 @@ z .user {
   align-items: center;
   width: 95%;
   height: 12.5rem;
-  /* border: 1px solid black; */
+  /* border-bottom: 1px solid #dae9f1; */
 }
 .bigWhiteBoxContainer {
   height: 100%;
