@@ -40,15 +40,17 @@ export default {};
 }
 .individualBox {
   /* border: 1px solid black; */
-  width: 100%;
-  height: 65%;
+  /* width: 100%;
+  height: 65%; */
+  width: 13.125rem;
+  height: 8.125rem;
   background: #ffffff;
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   margin-right: 1em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 1em;
 }
@@ -61,13 +63,13 @@ export default {};
   margin-bottom: 0.8em;
 }
 .boxPara {
-  width: 118px;
-  height: 40px;
+  width: 7.375rem;
+  height: 2.5rem;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   /* or 125% */
   font-weight: 900;
   text-align: left;

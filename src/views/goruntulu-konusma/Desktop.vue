@@ -31,8 +31,7 @@
 
           <!-- left menu -->
           <div class="menuContainer">
-
-          <Menu />
+            <Menu />
           </div>
         </div>
         <div class="greyBoxRight">
@@ -84,8 +83,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 @media screen and (max-width: 1550px) {
   .outerBox {
     /* Apply some styles */
-  width: 85%;
-
+    width: 85%;
   }
   /* .menuContainer{
     border:5px solid red;
@@ -149,9 +147,8 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   display: flex;
   flex-direction: row;
   justify-content: center;
-}z
-
-.user {
+}
+z .user {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,7 +203,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 }
 @media only screen and (max-width: 1160px) {
   .greyBoxLeft {
-  width:25%;
+    width: 25%;
   }
 }
 .userContainer {
