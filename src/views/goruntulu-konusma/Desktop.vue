@@ -77,7 +77,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
 .outerBox {
   /* border: 1px solid black; */
   height: 100%;
-  width: 65%;
+  width: 78.125rem;
   margin-bottom: 5%;
 }
 @media screen and (max-width: 1550px) {
