@@ -155,7 +155,7 @@ export default {};
   width: 90%;
   height: 80%;
   background-color: white;
-  padding: 2em;
+  padding: 0 1.625rem 1.625rem 1.625rem;
   border-radius: 2%;
   display: flex;
   flex-direction: column;
@@ -194,10 +194,8 @@ export default {};
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  /* border-bottom: 1px solid #e7eff3; */
-  /*
-
-  padding-bottom: 1.5em; */
+  /* border: 1px solid black; */
+  /*  padding-bottom: 1.5em; */
   margin-bottom: 1.5em;
   margin-top: 1.5em;
 }
