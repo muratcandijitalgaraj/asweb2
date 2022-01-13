@@ -213,7 +213,7 @@ export default {};
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 1.45rem;
   /* border: 1px solid black; */
   padding: 0;
   color: #3c4e69;

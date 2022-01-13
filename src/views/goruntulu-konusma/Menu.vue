@@ -14,32 +14,32 @@
 
     <!-- test sonuçları -->
     <div class="menuItem">
-    <div class="test-sonuclari">
-  <img src="../../assets/menu/health.svg" alt="" class="menuIcon" />
-      <p class="menuPara">Test Sonuçları</p>
-    </div>
-    <img src="../../assets/menu/1.svg" alt="">
+      <div class="test-sonuclari">
+        <img src="../../assets/menu/health.svg" alt="" class="menuIcon" />
+        <p class="menuPara">Test Sonuçları</p>
+      </div>
+      <img src="../../assets/menu/1.svg" alt="" />
     </div>
     <!-- geçmiş muayeneler -->
- <div class="menuItem">
+    <div class="menuItem">
       <img src="../../assets/menu/document-like.svg" alt="" class="menuIcon" />
       <p class="menuPara">Geçmiş Muayeneler</p>
     </div>
 
     <!-- hesabınız -->
-  
- <div class="menuItem">
+
+    <div class="menuItem">
       <img src="../../assets/menu/personalcard.svg" alt="" class="menuIcon" />
       <p class="menuPara">Hesabınız</p>
     </div>
     <!-- şifre değiştir -->
- <div class="menuItem">
+    <div class="menuItem">
       <img src="../../assets/menu/setting-2.svg" alt="" class="menuIcon" />
       <p class="menuPara">Şifre Değiştir</p>
     </div>
 
     <!-- çıkış yap -->
- <div class="menuItem">
+    <div class="menuItem">
       <img src="../../assets/menu/import-2.svg" alt="" class="menuIcon" />
       <p class="menuPara">Çıkış Yap</p>
     </div>
@@ -64,9 +64,8 @@ export default {};
   flex-direction: row;
   /* justify-content: flex-start; */
   align-items: flex-start;
-/* border: 1px solid black; */
-margin-right: 0.7em;
-
+  /* border: 1px solid black; */
+  margin-right: 0.7em;
 }
 .menuItem {
   /* margin-bottom: 1.3em; */
@@ -75,10 +74,11 @@ margin-right: 0.7em;
   justify-content: flex-start;
   align-items: flex-start;
   height: 100%;
-  width: auto;
+  width: 100%;
   /* border: 1px solid black; */
   padding: 0;
   padding-right: 0.5em;
+  margin-right: 2em;
 }
 .notification {
   margin-left: 5px;
@@ -89,15 +89,13 @@ margin-right: 0.7em;
 .menuPara {
   /* border: 1px solid black; */
   width: auto;
-/* width: 98px; */
-height: 20px;
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-color: #475870;
+  /* width: 98px; */
+  height: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #475870;
 }
-
-
 </style>

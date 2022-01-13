@@ -56,7 +56,7 @@ export default {};
 }
 @media only screen and (max-width: 1160px) {
   .individualBox {
-    height: 80%;
+    height: 8.125rem;
   }
 }
 .boxItem {
