@@ -57,7 +57,7 @@ export default {};
   flex-direction: column;
   justify-content: flex-start;
   align-items: baseline;
-  margin: 1.5em 0 0 1.5em;
+  margin: 1.5em 0 0 1.8em;
 }
 .test-sonuclari {
   display: flex;
