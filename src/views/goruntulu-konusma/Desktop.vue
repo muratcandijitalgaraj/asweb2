@@ -80,7 +80,7 @@ export default { components: { Menu, WhiteBoxes, BigWhiteBox } };
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 95%;
   margin-right: 2em;
   margin-left: 2em;
 }
