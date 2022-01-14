@@ -352,8 +352,9 @@ export default {
   margin-left: 0.5em;
 }
 .bulutlar {
-  margin-left: 4em;
-  width: 421px;
+  margin-left: 2em;
+  margin-right: 1em;
+  width: 100%;
   /* original was 217 */
   height: 100%;
   background: linear-gradient(
