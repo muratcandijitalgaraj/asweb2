@@ -10,12 +10,14 @@
     <div class="lineContainer">
       <div class="greyLine"></div>
     </div>
-    div.ı<temContainer>
-      <div class="menutItem">
-        <div class="itemLogo"></div>
-        <div class="itemPara"></div>
+    <div class="itemContainer">
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/route-square.svg" alt="" />
+        </div>
+        <div class="itemPara">Giriş</div>
       </div>
-    </temContainer>
+    </div>
   </div>
 </template>
 
@@ -28,7 +30,7 @@ export default {};
   width: 230px;
   border: 1px solid black;
   height: 100%;
-  margin-left: 1.875rem;
+  /* margin-left: 1.875rem; */
   margin-right: 1.875rem;
 }
 .lineContainer {
@@ -72,5 +74,34 @@ export default {};
   /* identical to box height */
 
   color: #3c4e69;
+}
+.itemContainer {
+  /* border: 1px solid red; */
+  padding-left: 1.875rem;
+}
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.itemLogo {
+  width: auto;
+  height: auto;
+  margin-right: 0.5rem;
+}
+.itemPara {
+  margin-top: 0.2rem;
+  width: 32px;
+  height: 20px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #32a5df;
 }
 </style>
