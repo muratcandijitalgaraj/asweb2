@@ -10,12 +10,19 @@
         <div class="sag-bulut"></div>
       </div>
     </div>
-    <div class="greyBox"></div>
+    <div class="greyBox">
+      <Menu />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import Menu from "./Menu.vue";
+export default {
+  components: {
+    Menu,
+  },
+};
 </script>
 
 <style scoped>
