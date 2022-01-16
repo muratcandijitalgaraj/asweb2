@@ -13,9 +13,46 @@
     <div class="itemContainer">
       <div class="menuItem">
         <div class="itemLogo">
-          <img src="../../assets/menu/route-square.svg" alt="" />
+          <img src="../../assets/menu/route-square-blue.svg" alt="" />
         </div>
-        <div class="itemPara">Giriş</div>
+        <div class="itemPara-blue">Giriş</div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/calendar-1.svg" alt="" />
+        </div>
+        <div class="itemPara">Randevularım</div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/health.svg" alt="" />
+        </div>
+        <div class="itemPara">Test Sonuçları</div>
+        <div id="oneSign"><img src="../../assets/menu/1.svg" alt="" /></div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/document-like.svg" alt="" />
+        </div>
+        <div class="itemPara">Geçmiş Muayeneler</div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/personalcard.svg" alt="" />
+        </div>
+        <div class="itemPara">Hesabınız</div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/setting-2.svg" alt="" />
+        </div>
+        <div class="itemPara">Şifre Değiştir</div>
+      </div>
+      <div class="menuItem">
+        <div class="itemLogo">
+          <img src="../../assets/menu/import-2.svg" alt="" />
+        </div>
+        <div class="itemPara">Çıkış Yap</div>
       </div>
     </div>
   </div>
@@ -77,6 +114,7 @@ export default {};
 }
 .itemContainer {
   /* border: 1px solid red; */
+  margin-top: 1.5rem;
   padding-left: 1.875rem;
 }
 .menuItem {
@@ -85,13 +123,14 @@ export default {};
   /* justify-content: center; */
   align-items: center;
   /* border: 1px solid red; */
+  margin-bottom: 1rem;
 }
 .itemLogo {
   width: auto;
   height: auto;
   margin-right: 0.5rem;
 }
-.itemPara {
+.itemPara-blue {
   margin-top: 0.2rem;
   width: 32px;
   height: 20px;
@@ -103,5 +142,18 @@ export default {};
   line-height: 20px;
 
   color: #32a5df;
+}
+.itemPara {
+  width: auto;
+  height: 20px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #3c4e69;
+  margin-right: 0.7rem;
 }
 </style>
