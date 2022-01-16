@@ -7,6 +7,15 @@
         <div class="protokol-no">Protokol No: 292390</div>
       </div>
     </div>
+    <div class="lineContainer">
+      <div class="greyLine"></div>
+    </div>
+    div.ı<temContainer>
+      <div class="menutItem">
+        <div class="itemLogo"></div>
+        <div class="itemPara"></div>
+      </div>
+    </temContainer>
   </div>
 </template>
 
@@ -20,9 +29,22 @@ export default {};
   border: 1px solid black;
   height: 100%;
   margin-left: 1.875rem;
+  margin-right: 1.875rem;
+}
+.lineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greyLine {
+  height: 1px;
+  width: 100%;
+  background: #dae9f1;
 }
 .userGroup {
-  margin-top: 2.438rem;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  /* border: 1px solid black; */
 }
 .userImg {
   margin-bottom: 1.5rem;
