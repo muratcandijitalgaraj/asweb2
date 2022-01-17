@@ -64,11 +64,12 @@ export default {};
 
 <style scoped>
 .menuComponent {
-  width: 230px;
-  border: 1px solid black;
+  width: 20%;
+  /* border: 1px solid black; */
   height: 100%;
   /* margin-left: 1.875rem; */
   margin-right: 1.875rem;
+  border-right: 1px solid #dae9f1;
 }
 .lineContainer {
   display: flex;
@@ -77,7 +78,7 @@ export default {};
 }
 .greyLine {
   height: 1px;
-  width: 100%;
+  width: 90%;
   background: #dae9f1;
 }
 .userGroup {

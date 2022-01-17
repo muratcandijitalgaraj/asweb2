@@ -12,22 +12,25 @@
     </div>
     <div class="greyBox">
       <Menu />
+      <!-- <WhiteBoxes /> -->
     </div>
   </div>
 </template>
 
 <script>
 import Menu from "./Menu.vue";
+// import WhiteBoxes from "./WhiteBoxes.vue";
 export default {
   components: {
     Menu,
+    // WhiteBoxes,
   },
 };
 </script>
 
 <style scoped>
 #randevulariniz-component {
-  width: 1920px;
+  width: 100%;
   height: 1264px;
   background: #32a5df;
   display: flex;
@@ -90,10 +93,12 @@ export default {
 }
 
 .greyBox {
-  width: 1250px;
+  width: 80%;
   height: 1035px;
   background: #f2f8fb;
   border-radius: 22px;
   /* background: black; */
+  display: flex;
+  flex-direction: row;
 }
 </style>
