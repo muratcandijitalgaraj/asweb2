@@ -71,4 +71,13 @@ export default {};
   text-align: left;
   color: #0a67ad;
 }
+
+@media only screen and (max-width: 1110px) {
+  .individualBox {
+    width: auto;
+  }
+  .boxPara {
+    width: auto;
+  }
+}
 </style>
