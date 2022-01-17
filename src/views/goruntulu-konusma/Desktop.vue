@@ -221,7 +221,7 @@ z .user {
   padding-right: 1em;
   /* border:1px solid red; */
 }
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1200px) {
   .greyBoxLeft {
     width: 25%;
   }
