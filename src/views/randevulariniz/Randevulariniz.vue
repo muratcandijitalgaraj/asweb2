@@ -39,7 +39,7 @@ export default {
   align-items: center;
 }
 .logoPart {
-  width: 1250px;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
